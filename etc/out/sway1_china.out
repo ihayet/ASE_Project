@@ -1,0 +1,17 @@
+{:N 499 :N_effort- 2109}
+✅ pass: data test
+
+all    	{:N 499 :N_effort- 2109}
+       	{:N 499 :N_effort- 3829.297}
+
+best	{:N 16 :N_effort- 241}
+    	{:N 16 :N_effort- 148.438}
+
+rest	{:N 64 :N_effort- 2542}
+    	{:N 64 :N_effort- 5146.484}
+
+all ~= best?{:N_effort- false}
+
+best ~= rest?{:N_effort- false}
+
+✅ pass: sway test

@@ -1,0 +1,17 @@
+{:AEXP- 3 :EFFORT- 19641 :LOC+ 1016 :N 1000 :PLEX- 3 :RISK- 5}
+✅ pass: data test
+
+all    	{:AEXP- 3 :EFFORT- 19641 :LOC+ 1016 :N 1000 :PLEX- 3 :RISK- 5}
+       	{:AEXP- 1.172 :EFFORT- 27666.016 :LOC+ 632.422 :N 1000 :PLEX- 1.562 :RISK- 5.469}
+
+best	{:AEXP- 2 :EFFORT- 43724 :LOC+ 1363 :N 31 :PLEX- 3 :RISK- 11}
+    	{:AEXP- 1.562 :EFFORT- 37663.281 :LOC+ 707.812 :N 31 :PLEX- 1.562 :RISK- 6.641}
+
+rest	{:AEXP- 3 :EFFORT- 19054 :LOC+ 1041 :N 124 :PLEX- 3 :RISK- 6}
+    	{:AEXP- 1.562 :EFFORT- 29643.359 :LOC+ 654.297 :N 124 :PLEX- 1.562 :RISK- 6.25}
+
+all ~= best?{:AEXP- false :EFFORT- false :LOC+ false :PLEX- true :RISK- false}
+
+best ~= rest?{:AEXP- false :EFFORT- false :LOC+ true :PLEX- true :RISK- false}
+
+✅ pass: sway test

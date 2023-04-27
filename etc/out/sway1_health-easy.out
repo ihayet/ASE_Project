@@ -1,0 +1,17 @@
+{:ACC+ -12.24 :MRE- 119.33 :N 10000 :PRED40+ 0}
+✅ pass: data test
+
+all    	{:ACC+ -12.24 :MRE- 119.33 :N 10000 :PRED40+ 0}
+       	{:ACC+ 5.066 :MRE- 47.395 :N 10000 :PRED40+ 32.552}
+
+best	{:ACC+ 0 :MRE- 0 :N 78 :PRED40+ 83.333}
+    	{:ACC+ 0.738 :MRE- 40.039 :N 78 :PRED40+ 32.552}
+
+rest	{:ACC+ -12.22 :MRE- 119.29 :N 312 :PRED40+ 0}
+    	{:ACC+ 5.117 :MRE- 47.492 :N 312 :PRED40+ 32.552}
+
+all ~= best?{:ACC+ false :MRE- false :PRED40+ false}
+
+best ~= rest?{:ACC+ false :MRE- false :PRED40+ false}
+
+✅ pass: sway test

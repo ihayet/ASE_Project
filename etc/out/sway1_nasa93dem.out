@@ -1,0 +1,17 @@
+{:Defects- 2077 :Effort- 278 :Kloc+ 48.5 :Months- 21.5 :N 93}
+✅ pass: data test
+
+all    	{:Defects- 2077 :Effort- 278 :Kloc+ 48.5 :Months- 21.5 :N 93}
+       	{:Defects- 3225.391 :Effort- 678.32 :Kloc+ 102.93 :Months- 10.312 :N 93}
+
+best	{:Defects- 1553 :Effort- 210 :Kloc+ 38 :Months- 21.3 :N 5}
+    	{:Defects- 1605.859 :Effort- 184.609 :Kloc+ 26.016 :Months- 5.859 :N 5}
+
+rest	{:Defects- 3343 :Effort- 215 :Kloc+ 90 :Months- 25 :N 20}
+    	{:Defects- 2757.422 :Effort- 321.094 :Kloc+ 66.406 :Months- 8.516 :N 20}
+
+all ~= best?{:Defects- false :Effort- false :Kloc+ false :Months- false}
+
+best ~= rest?{:Defects- false :Effort- false :Kloc+ false :Months- false}
+
+✅ pass: sway test

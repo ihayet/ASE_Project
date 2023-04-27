@@ -1,0 +1,17 @@
+{:Completion+ 0.9 :Cost- 313.834 :Idle- 0.247 :N 10000}
+✅ pass: data test
+
+all    	{:Completion+ 0.9 :Cost- 313.834 :Idle- 0.247 :N 10000}
+       	{:Completion+ 0.098 :Cost- 188.607 :Idle- 0.208 :N 10000}
+
+best	{:Completion+ 0.899 :Cost- 215.114 :Idle- 0.182 :N 78}
+    	{:Completion+ 0.1 :Cost- 85.805 :Idle- 0.189 :N 78}
+
+rest	{:Completion+ 0.897 :Cost- 338.014 :Idle- 0.214 :N 312}
+    	{:Completion+ 0.108 :Cost- 213.7 :Idle- 0.205 :N 312}
+
+all ~= best?{:Completion+ true :Cost- false :Idle- true}
+
+best ~= rest?{:Completion+ true :Cost- false :Idle- true}
+
+✅ pass: sway test

@@ -1,0 +1,17 @@
+{:Acc+ 15.5 :Lbs- 2807 :Mpg+ 20 :N 398}
+✅ pass: data test
+
+all    	{:Acc+ 15.5 :Lbs- 2807 :Mpg+ 20 :N 398}
+       	{:Acc+ 2.734 :Lbs- 893.75 :Mpg+ 7.812 :N 398}
+
+best	{:Acc+ 15.5 :Lbs- 2678 :Mpg+ 30 :N 12}
+    	{:Acc+ 2.266 :Lbs- 425.0 :Mpg+ 7.812 :N 12}
+
+rest	{:Acc+ 15.8 :Lbs- 2965 :Mpg+ 20 :N 48}
+    	{:Acc+ 2.148 :Lbs- 748.047 :Mpg+ 3.906 :N 48}
+
+all ~= best?{:Acc+ true :Lbs- false :Mpg+ false}
+
+best ~= rest?{:Acc+ true :Lbs- false :Mpg+ false}
+
+✅ pass: sway test

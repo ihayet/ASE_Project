@@ -1,0 +1,17 @@
+{:Effort- 21463 :Loc+ 931 :N 10000 :Risk- 5}
+✅ pass: data test
+
+all    	{:Effort- 21463 :Loc+ 931 :N 10000 :Risk- 5}
+       	{:Effort- 28705.078 :Loc+ 628.906 :N 10000 :Risk- 5.469}
+
+best	{:Effort- 16928 :Loc+ 1035 :N 78 :Risk- 6}
+    	{:Effort- 28136.328 :Loc+ 639.062 :N 78 :Risk- 4.688}
+
+rest	{:Effort- 16695 :Loc+ 896 :N 312 :Risk- 5}
+    	{:Effort- 23886.719 :Loc+ 630.078 :N 312 :Risk- 6.25}
+
+all ~= best?{:Effort- true :Loc+ true :Risk- true}
+
+best ~= rest?{:Effort- true :Loc+ true :Risk- true}
+
+✅ pass: sway test

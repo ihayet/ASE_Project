@@ -1,0 +1,17 @@
+{:CityMPG+ 21 :Class- 18.2 :HighwayMPG+ 28 :N 93 :Weight- 3050}
+✅ pass: data test
+
+all    	{:CityMPG+ 21 :Class- 18.2 :HighwayMPG+ 28 :N 93 :Weight- 3050}
+       	{:CityMPG+ 4.688 :Class- 9.57 :HighwayMPG+ 5.078 :N 93 :Weight- 630.859}
+
+best	{:CityMPG+ 39 :Class- 9.1 :HighwayMPG+ 43 :N 5 :Weight- 2240}
+    	{:CityMPG+ 8.203 :Class- 0.977 :HighwayMPG+ 6.641 :N 5 :Weight- 205.078}
+
+rest	{:CityMPG+ 23 :Class- 16.3 :HighwayMPG+ 31 :N 20 :Weight- 2895}
+    	{:CityMPG+ 5.859 :Class- 8.867 :HighwayMPG+ 5.469 :N 20 :Weight- 654.297}
+
+all ~= best?{:CityMPG+ false :Class- false :HighwayMPG+ false :Weight- false}
+
+best ~= rest?{:CityMPG+ false :Class- false :HighwayMPG+ false :Weight- false}
+
+✅ pass: sway test

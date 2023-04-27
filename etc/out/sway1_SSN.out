@@ -1,0 +1,17 @@
+{:Energy- 1239.253 :N 53662 :PSNR- 45.723}
+✅ pass: data test
+
+all    	{:Energy- 1239.253 :N 53662 :PSNR- 45.723}
+       	{:Energy- 1288.708 :N 53662 :PSNR- 5.55}
+
+best	{:Energy- 1413.825 :N 209 :PSNR- 45.925}
+    	{:Energy- 594.747 :N 209 :PSNR- 5.066}
+
+rest	{:Energy- 1309.936 :N 836 :PSNR- 45.93}
+    	{:Energy- 1458.215 :N 836 :PSNR- 5.555}
+
+all ~= best?{:Energy- true :PSNR- true}
+
+best ~= rest?{:Energy- true :PSNR- false}
+
+✅ pass: sway test
